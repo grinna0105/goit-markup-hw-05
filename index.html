@@ -77,6 +77,15 @@
           <button class="hero-button" type="button" data-modal-open>
             Замовити послугу
           </button>
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <button type="button" class="close-button" data-modal-close>
+                <svg viewBox="0 0 11 11" width="11" class="icon shape-codepen">
+                  <use xlink:href="./images/sprite.svg#icon-close"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -619,16 +628,7 @@
       </div>
     </footer>
 
-    <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <button type="button" class="close-button" data-modal-close>
-          <svg viewBox="0 0 11 11" width="11" class="icon shape-codepen">
-            <use xlink:href="./images/sprite.svg#icon-close"></use>
-          </svg>
-        </button>
-      </div>
-    </div>
-
+    
     <script src="./js/modal.js"></script>
   </body>
 </html>
